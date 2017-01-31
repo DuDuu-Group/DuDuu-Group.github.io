@@ -1,6 +1,12 @@
 .padding-12 {
 padding: 0.12rem .12rem 0.12rem .12rem !important;
 }
+.padding-12 .card {
+margin: 0 !important;
+}
 .side-nav a {
     color: whitesmoke !important;
 }
+.parallax-container {
+      height: 450px !important;
+    }
