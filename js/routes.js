@@ -9,6 +9,9 @@ app.config(["$routeProvider", "$locationProvider", function ($routeProvider, $lo
     $routeProvider.when("/blog", {
         templateUrl: "templates/blog.html"
     });
+    $routeProvider.when("/about", {
+        templateUrl: "templates/about.html"
+    });
     $routeProvider.when("/", {
         controller: "homeController",
         templateUrl: "templates/home.html"
