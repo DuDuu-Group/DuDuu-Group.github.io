@@ -1,3 +1,13 @@
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
 .padding-12 {
     padding: 0.12rem .12rem 0.12rem .12rem !important;
 }
@@ -13,13 +23,16 @@
 .parallax-container {
     height: 450px !important;
 }
-
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+.border-fill {
+    border-style: solid;
+    background-color: #039be5;
+    color: white;
+    border-color: #039be5;
+    
+}
+a.border-fill:hover {
+    border-style: solid;
+    color: #039be5;
+    background-color: white;
 }
 
-main {
-    flex: 1 0 auto;
-}
