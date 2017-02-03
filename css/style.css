@@ -28,11 +28,16 @@ main {
     background-color: #039be5;
     color: white;
     border-color: #039be5;
+    margin: 2px;
     
 }
 a.border-fill:hover {
     border-style: solid;
     color: #039be5;
     background-color: white;
+}
+.border-fill-rev {
+    border-style: solid;
+    margin: 2px;
 }
 
